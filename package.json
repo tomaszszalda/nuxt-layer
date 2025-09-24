@@ -20,6 +20,7 @@
     "vue": "latest"
   },
   "dependencies": {
-    "better-sqlite3": "^12.4.1"
+    "better-sqlite3": "^12.4.1",
+    "ufo": "^1.6.1"
   }
 }
