@@ -1,0 +1,25 @@
+{
+  "name": "my-nuxt-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxt/content": "^3.7.1",
+    "@nuxt/eslint": "latest",
+    "eslint": "^9.36.0",
+    "nuxt": "^4.1.2",
+    "typescript": "^5.9.2",
+    "vue": "latest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1"
+  }
+}
